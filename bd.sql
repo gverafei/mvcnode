@@ -15,6 +15,7 @@ CREATE TABLE alumno (
   FOREIGN KEY (id_materia) REFERENCES materia(id)
 );
 
+SET NAMES utf8;
 INSERT INTO materia VALUES(1, 'Redes');
 INSERT INTO materia VALUES(2, 'Sistemas Operativos');
 INSERT INTO materia VALUES(3, 'Programación');
